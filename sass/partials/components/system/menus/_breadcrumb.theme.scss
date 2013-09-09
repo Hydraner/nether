@@ -1,0 +1,17 @@
+.breadcrumb {
+	margin: 0;
+	padding: 0;
+	li {
+		float: left;
+		list-style: none;
+		margin-right: 0.5em;
+		&:after {
+			display: inline-block;
+			content: "\2023";
+			margin-left: 0.5em;
+		}
+		&:last-child:after {
+			content: '';
+		}
+	}
+}

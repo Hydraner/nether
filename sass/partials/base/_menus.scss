@@ -1,0 +1,18 @@
+.menu {
+	margin: 0;
+	padding: 0;
+	@include legacy-pie-clearfix;
+	.block__title {
+		display: none;
+	}
+	.menu--item {
+		display: block;
+		list-style: none;
+		@include breakpoint($narrow) {
+			float: left;
+		}
+	}
+	.menu--item_link {
+		display: block;
+	}
+}

@@ -1,0 +1,8 @@
+.tabs .links--inline li {
+  float: none;
+  margin-right: 0;
+  @include at-breakpoint($narrow) {
+    float: left;
+    margin-right: 1em;
+  }
+}

@@ -1,0 +1,4 @@
+.clearfix {
+	overflow: visible;
+	@include legacy-pie-clearfix;
+}
